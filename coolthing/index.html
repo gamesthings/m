@@ -2,21 +2,36 @@
 
 <h1>I Will Find You😈
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>click da button so i find you👍</p>
+
+<button onclick="getLocation()">let me find you</button>
+
+<p id="demo"></p>
+
 <script>
 var x = document.getElementById("demo");
+
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
+  } else { 
     x.innerHTML = "Geolocation is not supported by this browser.";
   }
 }
 
 function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude +
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
 }
 </script>
+
+</body>
+</html>
+
   
   
   
