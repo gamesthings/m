@@ -5,6 +5,8 @@
 /meet     https://meet.google.com/ueq-tmws-rws
 /cool     https://cool.games
 /edit     https://github.com/gamesthings/masc.biz/edit/main/_redirects
+/register   https://mascbiz.onelogin.com/self-registration2?name=signup
+
 
 #fallback
 /*              https://masc.biz/error/404.html
