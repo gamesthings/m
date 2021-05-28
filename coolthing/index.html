@@ -9,6 +9,17 @@
     <button onclick="getLocation()">let me find you</button>
     <p id="demo"></p>
     <script src="/js/geolocate.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaLSHl4xhJbJncR3fqK0Bqx93uPjhPgRE&callback=initMap&libraries=places,geometry&channel=GMPSB_locatorplus_v2_cABCDE" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaLSHl4xhJbJncR3fqK0Bqx93uPjhPgRE&callback=initMap" async defer></script>
+    <script>
+    let map;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: -26, lng: 84 },
+        zoom: 5,
+      });
+    }
+
+    </script>
 </body>
 </html>
