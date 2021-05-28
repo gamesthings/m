@@ -1,41 +1,14 @@
 <!DOCTYPE HTML>
-
-<h1>I Will Find You😈
-
-<!DOCTYPE html>
 <html>
+<head>
+    <title>I Will Find You</title>
+</head>
 <body>
-
-<p>click da button so i find you👍</p>
-
-<button onclick="getLocation()">let me find you</button>
-
-<p id="demo"></p>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-
+    <h1>I Will Find You</h1>
+    <p>Click the button so i find you👍</p>
+    <button onclick="getLocation()">let me find you</button>
+    <p id="demo"></p>
+    <script src="/js/geolocate.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaLSHl4xhJbJncR3fqK0Bqx93uPjhPgRE&callback=initMap&libraries=places,geometry&channel=GMPSB_locatorplus_v2_cABCDE" async defer></script>
 </body>
 </html>
-
-  
-
- 
-<a href="https://masc.biz/coolthing/crash/index.html">STOP LOCATING YOU (Must Be On Chrome Beta If Not On Chrome Beta, May Cause Browser To Freeze, Or Worse: Your Device)</a>
-
-  
-  <title>😈
