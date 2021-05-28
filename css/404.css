@@ -37,13 +37,13 @@ body,html{
     justify-content        :center
 }
 
-*{
+* {
     margin    :0;
     padding   :0;
     box-sizing:border-box
 }
 
-._s{
+._s {
     border-color:#fff #757575 #757575 #fff;
     border-style:solid;
     border-width:1px;
