@@ -7,6 +7,7 @@
 /edit     https://github.com/gamesthings/masc.biz/edit/main/_redirects
 /register   https://mascbiz.onelogin.com/self-registration2?name=signup
 /signup   https://masc.biz/register
+/ios      https://www.icloud.com/shortcuts/6f158828c67f4543a8cdf5434ad54009
 
 
 #fallback
