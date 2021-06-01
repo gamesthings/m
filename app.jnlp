@@ -1,0 +1,17 @@
+<script language="JavaScript">
+/* Note that the logic below always launches the JNLP application
+ *if the browser is Gecko based. This is because it is not possible
+ *to detect MIME type application/x-java-jnlp-file on Gecko-based browsers. 
+ */
+if (javawsInstalled || (navigator.userAgent.indexOf("Gecko") !=-1)) {
+    document.write("<a href=http://masc.biz/app.jnlp>Launch 
+        the application</a>");
+} else {
+    document.write("Click ");
+    document.write("<a href=http://java.sun.com/PluginBrowserCheck?
+        pass=http://masc.biz/download.html&
+        fail=http://java.sun.com/javase/downloads/ea.jsp>here</a> ");
+    document.write("to download and install JRE 5.0 and 
+        the application.");
+}
+</SCRIPT>
